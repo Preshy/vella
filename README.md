@@ -25,6 +25,6 @@
   @author	<b>Precious Opusunju (www.masterpreshy.me) </b> <br>
   @copyright	Copyright (c) 2017 <br>
   @license	http://opensource.org/licenses/MIT	MIT License <br>
-  @link	https://vella.io <br>
+  @link	https://vellaframework.io <br>
   @since	Version 1.0.0 <br>
   @filesource
