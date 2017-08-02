@@ -1,0 +1,14 @@
+{
+    "name": "vella/framework",
+    "description": "An open source minimalistic modular application development framework for PHP.",
+    "type": "framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Precious Opusunju",
+            "email": "haxorpreshy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

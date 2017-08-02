@@ -26,5 +26,4 @@
   @copyright	Copyright (c) 2017 <br>
   @license	http://opensource.org/licenses/MIT	MIT License <br>
   @link	https://vellaframework.io <br>
-  @since	Version 1.0.0 <br>
-  @filesource
+  @since	Version 0.1 <br>

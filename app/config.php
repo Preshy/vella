@@ -33,6 +33,11 @@
  * @filesource
  */
 
+return $CONFIG = [
 
-# Bootstrap our app...
-require_once 'app/bootstrap.php';
+    # Auto load composer ?
+    'composer_autoload' => false,
+
+    # Base URI
+    'base_url' => '', // I'll find it if you leave it empty.
+];
