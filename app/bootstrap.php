@@ -64,7 +64,7 @@ define('VELLA_MODELS', 'app/Models'); // ./app/Models
 define('VELLA_VIEWS', 'app/Views'); // ./app/Views
 
 // Modules folder
-define('VELLA_MODULEs', 'app/modules'); // ./app/Modules
+define('VELLA_MODULES', 'app/modules'); // ./app/Modules
 
 
 ##################
@@ -162,12 +162,12 @@ foreach ($scan_models_dir as $smd) {
 #############################################################
 
 // now scan through all files
-$scan_modules_dir = array_diff(scandir(VELLA_DIR.VELLA_MODELS), array('..', '.')); //ignore folders with a dot.
+$scan_modules_dir = array_diff(scandir(VELLA_DIR.VELLA_MODULES), array('..', '.')); //ignore folders with a dot.
 // loop through and include them..
 
-foreach ($scan_modules_dir as $smd) {
+foreach ($scan_modules_dir as $smodulesd) {
     try {
-        require_once VELLA_DIR.VELLA_MODULES.'/'.$smd;
+        require_once VELLA_DIR.'/'.VELLA_MODULES.'/'.$smodulesd;
     } catch (Exception $e) {
         die("Failed to autoload modules");
     }
